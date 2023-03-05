@@ -1,184 +1,242 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-
-$a:: 
-If GetKeyState("Capslock","T")    
-    SendInput ā
-else 
-    SendInput a
-Return
+﻿$a:: 
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, ā 
+    SetCapsLockState, Off
+}
+else {
+    SendInput, a
+    }
+return
 
 $s:: 
-If GetKeyState("Capslock","T")    
-    SendInput á
-else 
-    SendInput s
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, á
+    SetCapsLockState, Off
+}
+else {
+    SendInput, s
+    }
+return
 
 $d:: 
-If GetKeyState("Capslock","T")    
-    SendInput ǎ
-else 
-    SendInput d
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, ǎ
+    SetCapsLockState, Off
+}
+else {
+    SendInput, d
+    }
+return
 
 $f:: 
-If GetKeyState("Capslock","T")    
-    SendInput à
-else 
-    SendInput f
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, à
+    SetCapsLockState, Off
+}
+else {
+    SendInput, f
+    }
+return
 
 $q:: 
-If GetKeyState("Capslock","T")    
-    SendInput ē
-else 
-    SendInput q
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, ē
+    SetCapsLockState, Off
+}
+else {
+    SendInput, q
+    }
+return
 
 $w:: 
-If GetKeyState("Capslock","T")    
-    SendInput é
-else 
-    SendInput w
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, é
+    SetCapsLockState, Off
+}
+else {
+    SendInput, w
+    }
+return
+
 
 $e:: 
-If GetKeyState("Capslock","T")    
-    SendInput ě
-else 
-    SendInput e
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, ě
+    SetCapsLockState, Off
+}
+else {
+    SendInput, e
+    }
+return
 
 $r:: 
-If GetKeyState("Capslock","T")    
-    SendInput è
-else 
-    SendInput r
-Return
-
-$z:: 
-If GetKeyState("Capslock","T")    
-    SendInput Z
-else 
-    SendInput z
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, è
+    SetCapsLockState, Off
+}
+else {
+    SendInput, r
+    }
+return
 
 $8:: 
-If GetKeyState("Capslock","T")    
-    SendInput ū
-else 
-    SendInput 8
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, ū
+    SetCapsLockState, Off
+}
+else {
+    SendInput, 8
+    }
+return
 
 $u:: 
-If GetKeyState("Capslock","T")    
-    SendInput ú
-else 
-    SendInput u
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, ú
+    SetCapsLockState, Off
+}
+else {
+    SendInput, u
+    }
+return
 
 $h:: 
-If GetKeyState("Capslock","T")    
-    SendInput ǔ
-else 
-    SendInput h
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, ǔ
+    SetCapsLockState, Off
+}
+else {
+    SendInput, h
+    }
+return
 
 $b:: 
-If GetKeyState("Capslock","T")    
-    SendInput ù
-else 
-    SendInput b
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput, ù
+    SetCapsLockState, Off
+}
+else {
+    SendInput, b
+    }
+return
 
 $9:: 
-If GetKeyState("Capslock","T")    
-    SendInput ī
-else 
-    SendInput 9
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ī
+    SetCapsLockState, Off
+}
+else {
+    SendInput, 9
+    }
+return
 
 $i:: 
-If GetKeyState("Capslock","T")    
-    SendInput í
-else 
-    SendInput i
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,í
+    SetCapsLockState, Off
+}
+else {
+    SendInput, i
+    }
+return
 
 $j:: 
-If GetKeyState("Capslock","T")    
-    SendInput ǐ
-else 
-    SendInput j
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ǐ
+    SetCapsLockState, Off
+}
+else {
+    SendInput, j
+    }
+return
 
 $n:: 
-If GetKeyState("Capslock","T")    
-    SendInput ì
-else 
-    SendInput n
-Return
-
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ì
+    SetCapsLockState, Off
+}
+else {
+    SendInput, n
+    }
+return
 
 $0:: 
-If GetKeyState("Capslock","T")    
-    SendInput ō
-else 
-    SendInput 0
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ō
+    SetCapsLockState, Off
+}
+else {
+    SendInput, 0
+    }
+return
 
 $o:: 
-If GetKeyState("Capslock","T")    
-    SendInput ó
-else 
-    SendInput o
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ó
+    SetCapsLockState, Off
+}
+else {
+    SendInput, o
+    }
+return
 
 $k:: 
-If GetKeyState("Capslock","T")    
-    SendInput ǒ
-else 
-    SendInput k
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ǒ
+    SetCapsLockState, Off
+}
+else {
+    SendInput, k
+    }
+return
 
 $m:: 
-If GetKeyState("Capslock","T")    
-    SendInput ò
-else 
-    SendInput m
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ò
+    SetCapsLockState, Off
+}
+else {
+    SendInput, m
+    }
+return
 
-$v:: 
-If GetKeyState("Capslock","T")    
-    SendInput ǜ
-else 
-    SendInput v
-Return
-
-$c:: 
-If GetKeyState("Capslock","T")    
-    SendInput ǚ
-else 
-    SendInput c
-Return
+$z:: 
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ǖ
+    SetCapsLockState, Off
+}
+else {
+    SendInput, z
+    }
+return
 
 $x:: 
-If GetKeyState("Capslock","T")    
-    SendInput ǘ 
-else 
-    SendInput x
-Return
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ǘ
+    SetCapsLockState, Off
+}
+else {
+    SendInput, x
+    }
+return
 
+$c:: 
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ǚ
+    SetCapsLockState, Off
+}
+else {
+    SendInput, c
+    }
+return
 
-
-
-
-
-
-
-
+$v:: 
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ǜ
+    SetCapsLockState, Off
+}
+else {
+    SendInput, v
+    }
+return
 
 
