@@ -1,1 +1,2 @@
 # AhkForPinYinTone
+打拼音的声调是先按capslock键，然后对应按不同的字母会对应不同的声调。具体对于看csv文件
