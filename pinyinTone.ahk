@@ -79,13 +79,13 @@ else {
     }
 return
 
-$8:: 
+$t:: 
 If (GetKeyState("Capslock","T"))  { 
     SendInput, ū
     SetCapsLockState, Off
 }
 else {
-    SendInput, 8
+    SendInput, t
     }
 return
 
@@ -119,13 +119,13 @@ else {
     }
 return
 
-$9:: 
+$y:: 
 If (GetKeyState("Capslock","T"))  { 
     SendInput,ī
     SetCapsLockState, Off
 }
 else {
-    SendInput, 9
+    SendInput, y
     }
 return
 
@@ -159,13 +159,13 @@ else {
     }
 return
 
-$0:: 
+$p:: 
 If (GetKeyState("Capslock","T"))  { 
     SendInput,ō
     SetCapsLockState, Off
 }
 else {
-    SendInput, 0
+    SendInput, p
     }
 return
 
@@ -236,6 +236,16 @@ If (GetKeyState("Capslock","T"))  {
 }
 else {
     SendInput, v
+    }
+return
+
+$g:: 
+If (GetKeyState("Capslock","T"))  { 
+    SendInput,ü
+    SetCapsLockState, Off
+}
+else {
+    SendInput, g
     }
 return
 
